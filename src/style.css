@@ -341,25 +341,82 @@ body {
     }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 900px) {
     .container {
         flex-direction: column;
+        overflow-x: scroll;
+        display: flex;
     }
-    .leftContainer{
+
+    html,
+    body {
+        background-color: #01086E;
+        display: flex;
+        height: 100%;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: RubikOne;
+        flex-direction: column;
+    }
+
+    .leftContainer {
+        width: 126%;
+    }
+
+    .rightContainer {
+        width: 126%;
+    }
+    .appText{
+       
+    }
+    .phone {
+        width: 40%;
+       
+    }
+
+    .rupture {
+       width: 100px;
+    }
+
+    .swiper1 {
+        min-height: 260px;
+    }
+
+    .textImg {
+        min-width: 100px;
+    }
+
+    .footer {
+        margin-top: 10%;
+    }
+
+    .ideiaText {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    .ideiaText2 {
+        margin-top: 5%;
+    }
+
+    .ideiaText3 {
+        margin-top: 5%;
     }
 }
 
-@media (max-width: 1280px){
-    .circle{
+@media (max-width: 1280px) {
+    .circle {
         width: 120px;
         height: 120px;
     }
-    .swiper1{
+
+    .swiper1 {
         min-height: 260px;
     }
-    .textImg{
-       min-width: 100px;
+
+    .textImg {
+        min-width: 100px;
     }
 
     .footer {
@@ -384,13 +441,14 @@ body {
     }
 }
 
-@media (max-width: 1368px){
-    .circle{
+@media (max-width: 1368px) {
+    .circle {
         width: 130px;
         height: 130px;
     }
-    .textImg{
-       min-width: 100px;
+
+    .textImg {
+        min-width: 100px;
     }
 
     .footer {
@@ -414,4 +472,3 @@ body {
         margin-bottom: 15%;
     }
 }
-
