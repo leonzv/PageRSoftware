@@ -352,7 +352,7 @@ body {
     body {
         background-color: #01086E;
         display: flex;
-        height: 100%;
+        height: 200%;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -361,47 +361,52 @@ body {
     }
 
     .leftContainer {
-        width: 126%;
+        width: 100%;
     }
 
     .rightContainer {
-        width: 126%;
+        width: 100%;
+        height: 200%;
     }
     .appText{
-       
+       margin-top: 20px;
+       font-size: 22px;
     }
     .phone {
-        width: 40%;
+        width: 50%;
        
     }
 
     .rupture {
-       width: 100px;
+       width: 80%;
     }
 
     .swiper1 {
         min-height: 260px;
+        margin-bottom: 140px;
     }
-
+    .swiper2{
+        margin-bottom: 140px;
+    }
     .textImg {
         min-width: 100px;
     }
 
     .footer {
-        margin-top: 10%;
+        margin-bottom: 10px;
     }
 
     .ideiaText {
-        margin-top: 5%;
-        font-size: 22px;
+        font-size: 16px;
+        margin-bottom: 60px;
     }
 
     .ideiaText2 {
-        margin-top: 5%;
+        margin-bottom: 30px;
     }
 
     .ideiaText3 {
-        margin-top: 5%;
+        margin-bottom: 60px;
     }
 }
 

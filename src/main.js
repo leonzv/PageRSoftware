@@ -7,11 +7,23 @@ const swiper1 = new Swiper('.swiper1', {
         delay: 5000,
       },
       paginationType: "custom",
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        // when window width is >= 1280px
+        1110: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        },
+        // when window width is >= 640px
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 40
+        }
+      }
   });
 
   const swiper2 = new Swiper('.swiper2', {
@@ -28,6 +40,18 @@ const swiper1 = new Swiper('.swiper1', {
       el: '.swiper-pagination',
       clickable: true,
     },
+    breakpoints: {
+      // when window width is >= 1280px
+      1110: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // when window width is >= 640px
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      }
+    }
   });
 
   function goRupture(){
