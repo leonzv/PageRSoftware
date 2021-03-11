@@ -6,7 +6,7 @@ const swiper1 = new Swiper('.swiper1', {
     autoplay: {
         delay: 5000,
       },
-
+      paginationType: "custom",
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
@@ -22,10 +22,14 @@ const swiper1 = new Swiper('.swiper1', {
     autoplay: {
         delay: 5000,
       },
-
+      paginationType: "custom",
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
   });
+
+  function goRupture(){
+    location.href = "https://rupturesoftware.com.br/";
+  }
