@@ -118,8 +118,7 @@
 
 .greenBtn {
     background-color: #00FF5D;
-    max-width: 600px;
-    min-width: 470px;
+    width: 500px;
     min-height: 55px;
     border-collapse: separate;
     border-radius: 12px;
@@ -407,6 +406,9 @@ body {
 
     .ideiaText3 {
         margin-bottom: 60px;
+    }
+    .greenBtn{
+        max-width: 90%;
     }
 }
 
