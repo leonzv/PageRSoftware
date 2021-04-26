@@ -1,0 +1,105 @@
+html,
+body {
+    background-color: #ffffff; /*para navegadores que não suportam gradient*/
+    font-family: RubikOne;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: RubikOne;
+}
+.obrigado{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: RubikOne;
+}
+.textObrigado{
+    font-size: 4vw;
+    text-align: center;
+}
+.textObrigado2{
+    font-size: 2vw;
+    text-align: center;
+}
+.contato{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    font-family: RubikOne;
+}
+.form{
+ display: flex;
+ flex-direction: column;
+ font-family: RubikOne;
+}
+.field{
+    padding: 10px;
+    margin-bottom: 5%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: RubikOne;
+    background-color: #dfdfdf;
+}
+textarea{
+    height: 150px;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+}
+.rupture{
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+}
+.btnEnviar{
+    background-color: #00FF5D;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: RubikOne;
+    cursor: pointer;
+}
+@font-face {
+    font-family: RubikOne;
+    src: url(/criamosseuaplicativo/assets/font/Rubik-Regular.ttf) format("truetype");
+}
+@media (max-height: 1080px) {
+    .field{
+        margin-bottom: 5%;
+        padding: 12px;
+    }
+    h3{
+        font-size: 34px;
+    }
+}
+@media (max-height: 900px) {
+    .field{
+        margin-bottom: 4%;
+        padding: 10px;
+    }
+    h3{
+        font-size: 32px;
+    }
+}
+@media (max-height: 768px) {
+    .field{
+        margin-bottom: 2%;
+        padding: 8px;
+    }
+    h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+    h3{
+        font-size: 18px;
+    }
+}

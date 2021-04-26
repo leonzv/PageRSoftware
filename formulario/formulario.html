@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/criamosseuaplicativo/formulario/styleForm.css">
+    <title>Formulário - Rupture Software</title>
+</head>
+<body>
+    <section>
+        <div class="contato">
+            <h3>Formulário de contato</h3>
+            <form action="./form.php" class="form" method="POST">
+                <input type="text" class="field" name="nome" placeholder="Nome" required>
+                <input type="text" class="field" name="sobrenome" placeholder="Sobrenome" required>
+                <input type="text" class="field" name="empresa" placeholder="Empresa" required>
+                <input type="text" class="field" name="cidade" placeholder="Cidade" required>
+                <input type="text" class="field" name="estado" placeholder="Estado" required>
+                <input type="text" class="field" name="telefone" placeholder="Telefone" required>
+                <input type="text" class="field" name="whatsapp" placeholder="WhatsApp" required>
+                <input type="text" class="field" name="email" placeholder="E-mail" required>
+                <input type="text" class="field" name="investimento" placeholder="Investimento esperado" required>
+                <label for="projeto" required>Escolha um tipo de projeto:</label>
+                <select name="projeto" class="field" required>
+                    <option value="Site">Site</option>
+                    <option value="Loja">Loja virtual</option>
+                    <option value="App">Aplicativo</option>
+                    <option value="Sistema">Sistema</option>
+                </select>
+                <textarea class="field" name="message" placeholder="Digite sua mensagem aqui..." required></textarea>
+                <input class="btnEnviar" type="submit" value="Enviar" name="enviar">
+            </form>
+        </div>
+        <div class="ruptureDiv">
+            <img src="/criamosseuaplicativo/assets/img/rupture.png" alt="rupture" class="rupture">
+        </div>
+    </section>
+    
+</body>
+</html>
